@@ -6,6 +6,6 @@ Universidad Pontificia Bolivariana
 
 ## Repositorio con las soluciones de las evaluaciones del curso
 
-**Estudiante:** Samuel Andres Gonzalez Negrete
+**Estudiantes:** Samuel Andres Gonzalez Negrete - Alejandro Gonzalez Diaz - Damaso Doria Fara
 
 **Correo:** samuel.gonzalezn@upb.edu.co
