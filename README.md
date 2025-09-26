@@ -8,4 +8,4 @@ Universidad Pontificia Bolivariana
 
 **Estudiantes:** Samuel Andres Gonzalez Negrete - Alejandro Gonzalez Diaz - Damaso Doria Fara
 
-**Correo:** samuel.gonzalezn@upb.edu.co
+**Correos:** samuel.gonzalezn@upb.edu.co - alejandro.gonzalezd@upb.edu.co - damaso.doria@upb.edu.co
