@@ -16,17 +16,17 @@ Universidad Pontificia Bolivariana
 
 **Descripción técnica:** El sistema implementa un flujo de trabajo de Visión por Computadora y Reconocimiento Óptico de Caracteres (OCR) con una interfaz de menú simple para el usuario. El sistema sigue los siguientes pasos de forma secuencial:
 
-Captura/Carga: El usuario selecciona entre captura en vivo (cámara web) o carga de archivo (Opción 1 y 2).
+- Captura/Carga: El usuario selecciona entre captura en vivo (cámara web) o carga de archivo (Opción 1 y 2).
 
-Pre-procesamiento: Se aplica filtrado bilateral (para ruido), detección de bordes Canny, y cierre morfológico para asegurar la continuidad del contorno de la placa.
+- Pre-procesamiento: Se aplica filtrado bilateral (para ruido), detección de bordes Canny, y cierre morfológico para asegurar la continuidad del contorno de la placa.
 
-Detección de Contorno (ROI): Se buscan contornos de 4 lados (rectangulares) que cumplan con una relación de aspecto y área permisiva, optimizada para placas.
+- Detección de Contorno (ROI): Se buscan contornos de 4 lados (rectangulares) que cumplan con una relación de aspecto y área permisiva, optimizada para placas.
 
-Optimización para OCR: El recorte de la placa es escalado y sometido a Ecualización de Histograma Adaptativa (CLAHE), reducción de ruido y un filtro de Afilado (Sharpening) para mejorar la nitidez..
+- Optimización para OCR: El recorte de la placa es escalado y sometido a Ecualización de Histograma Adaptativa (CLAHE), reducción de ruido y un filtro de Afilado (Sharpening) para mejorar la nitidez.
 
-Extracción OCR y Votación: Se utiliza la librería Tesseract para intentar la lectura con múltiples configuraciones (PSM 7, PSM 8, e imagen invertida). El resultado se elige por un sistema de votación que devuelve la placa más frecuente y su nivel de confianza.
+- Extracción OCR y Votación: Se utiliza la librería Tesseract para intentar la lectura con múltiples configuraciones (PSM 7, PSM 8, e imagen invertida). El resultado se elige por un sistema de votación que devuelve la placa más frecuente y su nivel de confianza.
 
-Almacenamiento: El resultado final (Placa, Fecha, Hora de Colombia y Nivel de Confianza) se registra en el archivo registro_placas_vehiculos.csv.
+- Almacenamiento: El resultado final (Placa, Fecha, Hora de Colombia y Nivel de Confianza) se registra en el archivo registro_placas_vehiculos.csv.
 
 **Dependencias:** El proyecto está desarrollado en Python y requiere las siguientes librerías para su ejecución:
 
