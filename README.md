@@ -30,17 +30,17 @@ Universidad Pontificia Bolivariana
 
 **Dependencias:** El proyecto está desarrollado en Python y requiere las siguientes librerías para su ejecución:
 
-. OpenCV (cv2): Pre-procesamiento de imagen, detección de contornos, recortes (ROI) y filtros.
+- OpenCV (cv2): Pre-procesamiento de imagen, detección de contornos, recortes (ROI) y filtros.
 
-. pytesseract: Motor de Reconocimiento Óptico de Caracteres (OCR).
+- pytesseract: Motor de Reconocimiento Óptico de Caracteres (OCR).
 
-. Tesseract-OCR: Motor externo de OCR requerido por pytesseract.
+- Tesseract-OCR: Motor externo de OCR requerido por pytesseract.
 
-. pandas: Manejo y persistencia de los datos en el archivo registro_placas_vehiculos.csv.
+- pandas: Manejo y persistencia de los datos en el archivo registro_placas_vehiculos.csv.
 
-. pytz: Manejo de zonas horarias para registrar la hora local de Colombia (America/Bogota).
+- pytz: Manejo de zonas horarias para registrar la hora local de Colombia (America/Bogota).
 
-. numpy: Manejo de arreglos y matrices de imágenes.
+- numpy: Manejo de arreglos y matrices de imágenes.
 
 **Ejecución:** 
 
